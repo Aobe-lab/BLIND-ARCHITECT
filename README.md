@@ -1,2 +1,20 @@
-# BLIND-ARCHITECT
-9×9の盤面で行うのは、ただの陣取りではない。 このゲームの核心は 「自分の勝利条件が最初はわからない」という点にある。  プレイヤーは駒を置きながら盤面を読み合う。しかし本当に狙うべき勝利条件は、ゲームの進行の中でしか見えてこない。 三連を作るゲームなのか。中央支配なのか。包囲なのか。  相手の狙いを誤読した瞬間、その一手が敗着になる。 逆に読み切れば、相手は「なぜ負けたのか」すら理解できない。  将棋の読み、ポーカーの心理戦、推理ゲームの情報戦。それらを9×9の盤面に圧縮した知的バトル。  相手の勝利条件を暴け。 そして―― 自分の勝ち筋すら疑い続けろ。 最後に笑うのは、盤面の裏側まで読み切った者だけだ。 
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/b6adc5e3-8bd3-4419-a29c-9c1d9bea70cf
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
